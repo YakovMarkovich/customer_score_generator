@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+option java_package = "m2m";
+
+message Customer {
+    int64 id = 1;
+    int32 score = 2;
+}
