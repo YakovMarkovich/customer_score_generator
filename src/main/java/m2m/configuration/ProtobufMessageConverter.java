@@ -1,4 +1,4 @@
-package main.java.m2m;
+package main.java.m2m.configuration;
 
 import com.google.protobuf.AbstractMessageLite;
 import org.springframework.core.MethodParameter;

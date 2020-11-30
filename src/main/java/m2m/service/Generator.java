@@ -1,4 +1,4 @@
-package main.java.m2m;
+package main.java.m2m.service;
 
 import m2m.Model;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,6 @@ public class Generator {
         Model.Customer customer = getRandomCustomer();
         Thread.sleep(1000);
         Message<Model.Customer> message = new GenericMessage<>(customer);
-        System.out.println(message);
         source.output().send(message);
         return message;
     }

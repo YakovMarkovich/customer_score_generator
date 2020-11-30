@@ -1,5 +1,6 @@
-package main.java.m2m;
+package main.java.m2m.configuration;
 
+import main.java.m2m.configuration.ProtobufMessageConverter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.cloud.stream.annotation.StreamMessageConverter;
 import org.springframework.context.annotation.Bean;
