@@ -14,7 +14,7 @@ import java.util.Random;
 @Service
 @EnableBinding(Source.class)
 public class Generator {
-    private final int MAX_NUMBER_CUSTOMERS = 10;
+    private final int MAX_NUMBER_CUSTOMERS = 1000000;
     private final int MAX_SCORE = 100;
     @Autowired
     Source source;
